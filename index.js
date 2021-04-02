@@ -7,5 +7,8 @@ const user = {
 };
 
 _.forEach(user, (value, key) => {
-  console.log(`key: ${key} = ${value}`);
+  const span = document.createElement('span');
+
+  span.textContent = `key: ${key} = ${value}`;
+  document.body.append(span);
 });
