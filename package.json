@@ -2,8 +2,10 @@
   "name": "terminal_lesson",
   "version": "0.0.1",
   "description": "Lesson about terminal, npm, git",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html --out-dir ./docs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -15,5 +17,8 @@
   "license": "ISC",
   "dependencies": {
     "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "parcel": "^2.0.0-beta.2"
   }
 }

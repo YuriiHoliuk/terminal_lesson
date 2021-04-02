@@ -7,5 +7,5 @@ const user = {
 };
 
 _.forEach(user, (value, key) => {
-  console.log(`Key: ${key} = ${value}`);
+  console.log(`key: ${key} = ${value}`);
 });
